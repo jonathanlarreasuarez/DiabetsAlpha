@@ -43,13 +43,15 @@
         android:text="Carbohidratos" />
 
 
-    <Button
-        android:id="@+id/btnalimentos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right"
+        <Button
+            android:id="@+id/btnalimentos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
 
-        android:text="Lista Alimentos" />
+            android:background="#2D6CAF"
+            android:text="Lista Alimentos"
+            android:textColor="#ffffff" />
 
     <EditText
         android:id="@+id/ratio"
@@ -93,13 +95,35 @@
         android:layout_height="wrap_content"
         android:text="Rango Objetivo" />
 
-    <Button
-        android:id="@+id/btncalcular"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="calcular"
+        <Button
+            android:id="@+id/btncalcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2D6CAF"
 
-        />
+
+            android:text="calcular"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/numcal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15"
+            android:textSize="36dp"
+            android:gravity="center"
+            android:textColor="#2D6CAF"
+            android:visibility="invisible"/>
+            />
+
+        <TextView
+            android:id="@+id/textcal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Unidades"
+            android:textColor="#2D6CAF"
+            android:visibility="invisible"/>/>
 
     </LinearLayout>
     

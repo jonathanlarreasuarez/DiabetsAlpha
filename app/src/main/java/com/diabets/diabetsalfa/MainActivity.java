@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.view.MenuItem;
 import android.support.annotation.NonNull;
+import android.widget.TextView;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -29,6 +30,20 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(int1 );
             }
         });
+
+        Button botona = (Button) findViewById(R.id.btncalcular);
+        botona.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                TextView textView = (TextView) findViewById(R.id.numcal);
+                textView.setVisibility(View.VISIBLE);
+                TextView textView2 = (TextView) findViewById(R.id.textcal);
+                textView2.setVisibility(View.VISIBLE);
+            }
+        });
+
+
 
 
 
