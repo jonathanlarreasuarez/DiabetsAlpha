@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/calculadora"
+        android:title="@string/calculadora"
+        android:icon="@drawable/ic_home"
+        />
+
+    <item
+        android:id="@+id/registro"
+        android:title="@string/registro"
+        android:icon="@drawable/ic_check"
+
+        />
+
+
+    <item
+        android:id="@+id/historial"
+        android:title="@string/historial"
+        android:icon="@drawable/ic_date_range"
+
+        />
+
+
+
+
+
+</menu>

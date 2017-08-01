@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DiabetsAlfa</string>
+    <string name="calculadora">calculadora</string>
+    <string name="registro">registro</string>
+    <string name="home">home</string>
+    <string name="historial">historial</string>
+    <string name="title_activity_registro">registro</string>
+    <string name="title_activity_historial">historial</string>
+    <string name="title_activity_lista">lista</string>
+</resources>
